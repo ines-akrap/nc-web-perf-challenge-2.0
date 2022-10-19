@@ -28,3 +28,7 @@
   text-decoration: none;
 }
 
+.navigation__link:hover,
+.navigation__link:focus {
+  color: white;
+}
