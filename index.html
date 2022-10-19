@@ -37,12 +37,9 @@
         now = Date.now();
       }
     };
-    // anti flicker
-    document.body.style.visibility = 'hidden';
 
     wait(1000);
     window.addEventListener('load', () => {
-      document.body.removeAttribute('style');
       initAd();
     });
     // antiflicker();
