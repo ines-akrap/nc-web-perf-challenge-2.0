@@ -12,3 +12,21 @@
   white-space: nowrap !important;
   border: 0 !important;
 }
+
+.screenreader-text {
+  position: absolute;
+  left: -999px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+}
+.screenreader-text:focus {
+  color: black;
+  background-color: white;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  margin: auto;
+  left: 0;
+  padding: 5px;
+}

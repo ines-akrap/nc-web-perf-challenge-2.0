@@ -52,6 +52,10 @@
   <script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js'></script>
 </head>
 <body>
+  <a id='skip-nav' class='screenreader-text' href='#main-content'>
+    Skip to Content
+  </a>
+  
   <header class="header__base">
     <nav class="header__content">
       <a class="header__logo" href="#">
@@ -84,7 +88,7 @@
 
     <h1 class="main__title visually-hidden" id="page-title">The Rum Diary Homepage</h1>
     
-    <div class="main__content" role="main">
+    <div class="main__content" role="main" id="#main-content">
       <section class="main__news main__section">
         <p width="100%" style="line-height: 30px;background-color: darkred;color: white;text-align:center;">BREAKING NEWS: 5 people arrested for non designing responsively</p>
       </section>
