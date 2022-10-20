@@ -141,7 +141,13 @@
       
       <section class="main__video main__section">
         <h2 class="visually-hidden">Video and feedback form</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/072wpvM7aS8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="video__base" id="player">
+          <img class="video__placeholder"
+            src="assets/video-placeholder.webp" 
+            alt="Play video"
+            width=560
+            height=315>
+        </div>
         <form class="form__base">
           <div class="form__intro">Something about lighthouses, describing point of the video we are putting here to prove how awesome they really are, no.</div>
           <div class="from__control">
@@ -176,5 +182,6 @@
   </footer>
   <script src="script/app.js"></script>
   <script src="script/a11y.js"></script>
+  <script src="script/video.js"></script>
 </body>
 </html>
